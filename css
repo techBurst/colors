@@ -1,0 +1,94 @@
+/* Brandon Hubler
+	Colors CSS page */
+
+h2
+{
+	margin-left: 10px;
+}
+
+div
+{
+	position: relative;
+	width: 500px;
+	float: left;
+	clear: left;
+	height: 50px;
+	z-index: -1;
+	opacity: 0;
+}
+
+img, #wrap
+{
+	position: absolute;
+	left: 20px;
+	top: 100px;
+	height: 500px;
+	width: 500px;
+}
+
+select, input
+{
+	margin-left: 10px;
+	float: left;
+}
+
+#man
+{
+	display: none;
+}
+
+table
+{
+	display: none;
+}
+
+#blue
+{
+	background-color: blue;
+}
+
+#purple
+{
+	background-color: purple;
+}
+
+#green
+{
+	background-color: green;
+}
+
+#red
+{
+	background-color: red;
+}
+
+#black
+{
+	background-color: black;
+}
+
+#orange
+{
+	background-color: orange;
+}
+
+#yellow
+{
+	background-color: yellow;
+}
+
+#brown
+{
+	background-color: #663300;
+}
+
+#gray
+{
+	background-color: silver;
+}
+
+#white
+{
+	background-color: white;
+}
+
