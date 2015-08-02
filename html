@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<!--
+    by: Brandon Hubler
+-->
+
+<head>  
+	<title> Favorite Colors </title>
+	<meta charset="utf-8" />
+	<link href="colors.css" type="text/css" rel="stylesheet" />
+	<script src="jquery-1.11.3.js"></script>
+	<script src="colors.js"></script>
+</head>
+
+<body>
+	<h2> Favorite Colors by Gender </h2>
+	
+	<div id="wrap">
+		<div id="blue"></div>
+		<div id="purple"></div>
+		<div id="green"></div>
+		<div id="red"></div>
+		<div id="black"></div>
+		<div id="orange"></div>
+		<div id="yellow"></div>
+		<div id="brown"></div>
+		<div id="gray"></div>
+		<div id="white"></div>
+	</div>
+	
+	<img src="man.gif" alt="man" id="man" />
+	<img src="woman.gif" alt="woman" id="woman" />
+	
+	<select id="choose">
+		<option value="menFav"> Men's Favorite Colors </option>
+		<option value="womFav" selected> Women's Favorite Colors </option>
+		<option value="menBad"> Men's Least Favorite Colors </option>
+		<option value="womBad"> Women's Least Favorite Colors </option>
+	</select>
+	
+	<input type="button" id="button" value="Go" />
+	
+	<table id="data">
+		<tr>
+			<td> &nbsp </td>
+			<th> Blue </th>
+			<th> Purple </th>
+			<th> Green </th>
+			<th> Red </th>
+			<th> Black </th>
+			<th> Orange </th>
+			<th> Yellow </th>
+			<th> Brown </th>
+			<th> Gray </th>
+			<th> White </th>
+		</tr>
+		<tbody>
+		<tr id="menFav">
+			<th> Men's Favorites </th>
+			<td> 57 </td>
+			<td> 0 </td>
+			<td> 14 </td>
+			<td> 7 </td>
+			<td> 9 </td>
+			<td> 5 </td>
+			<td> 1 </td>
+			<td> 2 </td>
+			<td> 3 </td>
+			<td> 2 </td>
+		</tr>
+		<tr id="womFav">
+			<th> Women's Favorites </th>
+			<td> 35 </td>
+			<td> 23 </td>
+			<td> 14 </td>
+			<td> 9 </td>
+			<td> 6 </td>
+			<td> 5 </td>
+			<td> 3 </td>
+			<td> 3 </td>
+			<td> 1 </td>
+			<td> 1 </td>
+		</tr>
+		<tr id="menBad">
+			<th> Men's Least Favorites </th>
+			<td> 1 </td>
+			<td> 22 </td>
+			<td> 2 </td>
+			<td> 2 </td>
+			<td> 1 </td>
+			<td> 22 </td>
+			<td> 13 </td>
+			<td> 27 </td>
+			<td> 5 </td>
+			<td> 5 </td>
+		</tr>
+		<tr id="womBad">
+			<th> Women's Least Favorites </th>
+			<td> 0 </td>
+			<td> 8 </td>
+			<td> 6 </td>
+			<td> 0 </td>
+			<td> 0 </td>
+			<td> 33 </td>
+			<td> 13 </td>
+			<td> 20 </td>
+			<td> 17 </td>
+			<td> 3 </td>
+		</tr>
+		</tbody>
+	</table>
+</body>
+</html>
